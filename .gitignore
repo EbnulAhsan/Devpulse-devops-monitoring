@@ -4,3 +4,12 @@ dist
 .vercel
 keys/devpulse-ec2-key
 *.pem
+
+
+
+# Terraform
+terraform/.terraform/
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+terraform/crash.log
