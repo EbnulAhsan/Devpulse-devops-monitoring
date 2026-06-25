@@ -1,4 +1,6 @@
-data "aws_default_vpc" "default" {}
+data "aws_vpc" "default" {
+  default = true
+}
 
 data "aws_ami" "ubuntu" {
   most_recent = true
@@ -23,7 +25,7 @@ resource "aws_key_pair" "devpulse_key" {
 resource "aws_security_group" "devpulse_sg" {
   name        = "${var.project_name}-sg"
   description = "Security group for DevPulse backend and monitoring stack"
-  vpc_id      = data.aws_default_vpc.default.id
+  vpc_id      = data.aws_vpc.default.id
 
   ingress {
     description = "SSH access"
