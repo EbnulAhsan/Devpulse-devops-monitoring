@@ -2,3 +2,5 @@ node_modules
 dist
 .env
 .vercel
+keys/devpulse-ec2-key
+*.pem
