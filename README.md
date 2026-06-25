@@ -26,8 +26,8 @@ The DevOps assignment was implemented on top of an existing DevPulse backend pro
 
 | Service | URL / Details |
 |---|---|
-| **Backend API** | http://47.129.231.97:5000 |
-| **Grafana Dashboard** | http://47.129.231.97:3000 |
+| **Backend API** |  |
+| **Grafana Dashboard** |  |
 | **Grafana Login** | Username: `admin` \| Password: `admin` |
 | **Original Vercel API** | https://devpulsebackendfinal.vercel.app |
 | **GitHub Repository** | https://github.com/EbnulAhsan/Devpulse-devops-monitoring |
