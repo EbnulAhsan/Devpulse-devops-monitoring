@@ -1,5 +1,7 @@
 # DevPulse — Bug & Feature Tracker API
 
+DevOps monitoring assignment setup in progress.
+
 DevPulse is a backend REST API for tracking bugs and feature requests within a development team. It supports role-based access control, allowing **contributors** to report issues and **maintainers** to manage their lifecycle.
 
 **Live API:** [https://devpulsebackendfinal.vercel.app](https://devpulsebackendfinal.vercel.app)
